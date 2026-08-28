@@ -50,6 +50,7 @@ NIVEL 1 - CATALOGO DE FILMES
 .catalogo {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
 }
 
 .filme {
