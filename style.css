@@ -23,8 +23,8 @@ h1 {
 }
 
 .conteudo {
-   margin: 50px auto;
-   width: 70%;
+    margin: 50px auto;
+    width: 70%;
 }
 
 .desafio {
@@ -37,7 +37,7 @@ h1 {
     margin-bottom: 5px;
 }
 
-.desafio > p {
+.desafio>p {
     margin-bottom: 15px;
 }
 
@@ -63,4 +63,9 @@ NIVEL 1 - CATALOGO DE FILMES
     width: 100%;
     height: 160px;
     object-fit: cover;
+}
+
+.filme h3,
+.filme p {
+    padding: 10px;
 }
