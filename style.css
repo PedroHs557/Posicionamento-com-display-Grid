@@ -98,3 +98,47 @@ NIVEL 1 - CATALOGO DE FILMES
 .filme-destaque p {
     padding-top: 5px;
 }
+
+/*
+
+NIVEL 3 - HOME DO CINEBOX
+
+*/
+
+.pagina {
+    display: grid;
+    grid-template-columns: 180px 1fr;
+    grid-template-areas: 
+    "topo topo"
+    "menu principal"
+    "rodape rodape";
+}
+
+.topo {
+    grid-area: topo;
+    background-color: #222222;
+    color: #FFFFFF;
+    padding: 20px;
+
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+}
+
+.topo > nav {
+    display: flex;
+    gap: 15px;
+}
+
+.topo a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.menu {
+    grid-area: menu;
+
+    background-color: #F2F2F2;
+    padding: 20px;
+}
+
